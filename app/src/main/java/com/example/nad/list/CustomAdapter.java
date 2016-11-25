@@ -59,7 +59,7 @@ public class CustomAdapter extends android.widget.BaseAdapter {
         viewName.setText(Wine.getName());
         viewBrand.setText(Wine.getBrand());
         viewLocation.setText(Wine.getLocation());
-        viewPercentage.setText(Wine.getPercentage());
+        viewPercentage.setText(String.valueOf(Wine.getPercentage()));
         return view;
     }
 }

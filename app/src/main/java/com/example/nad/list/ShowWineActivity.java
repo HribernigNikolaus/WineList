@@ -31,7 +31,7 @@ public class ShowWineActivity extends AppCompatActivity {
         viewName.setText(Wine.getName());
         viewBrand.setText(Wine.getBrand());
         viewLocation.setText(Wine.getLocation());
-        viewPercentage.setText(Wine.getPercentage());
+        viewPercentage.setText(String.valueOf(Wine.getPercentage()));
 
     }
 
